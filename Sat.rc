@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Croatian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HRV)
+#ifdef _WIN32
+LANGUAGE LANG_CROATIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INFO DIALOG DISCARDABLE  0, 0, 186, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Podešavanj SS Sat"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    GROUPBOX        "Vrsta sata",IDC_STATIC,13,38,63,38
+    CONTROL         "&Analogni",ID_ANALOGNI,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,49,52,8
+    CONTROL         "&Digitalni",ID_DIGITALNI,"Button",BS_AUTORADIOBUTTON,21,
+                    63,54,9
+    GROUPBOX        "Zvono",IDC_STATIC,13,91,160,71
+    CONTROL         "&Ugasi zvono",IDC_FZVONO,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,13,81,65,8
+    EDITTEXT        IDC_EDIT1,25,114,107,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse",IDB_BROWSE,139,114,31,12
+    LTEXT           "Zvuk za zvono",IDC_STATIC,27,105,52,8
+    LTEXT           "Vrijeme zvonjave",IDC_STATIC,26,133,73,8
+    EDITTEXT        IDC_EDIT2,25,141,37,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Izradio: Programko\nE-mail: programko@gmail.com\nCopyright (c) 2002.",
+                    IDC_STATIC,13,7,113,25
+    PUSHBUTTON      "Pomoæ",IDHELP,129,61,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+TRI                     BITMAP  DISCARDABLE     "tri.bmp"
+DVANEST                 BITMAP  DISCARDABLE     "dvanest.bmp"
+OSTALI                  BITMAP  DISCARDABLE     "ostali.bmp"
+SEST                    BITMAP  DISCARDABLE     "sest.bmp"
+DEVET                   BITMAP  DISCARDABLE     "devet.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "Clock.ico"
+#endif    // Croatian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
